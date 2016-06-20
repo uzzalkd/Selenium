@@ -1,1 +1,52 @@
-Hello
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject
+$ git init
+Initialized empty Git repository in C:/Users/BS023/Desktop/GIT-SeleniumProject/.git/
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject (master)
+$ git remote add origin https://github.com/uzzalkd/Selenium.git
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject (master)
+$ git add .
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <(null)>) not allowed
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject (master)
+$  git config --global user.email "you@example.com"
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject (master)
+$  git config --global user.email "uzzalcsedu@gmail.com"
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject (master)
+$  git config --global user.name "Uzzal"
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject (master)
+$ git commit -m "first commit"
+[master (root-commit) 2608a37] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New Text Document.txt
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 227 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/uzzalkd/Selenium.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+BS023@DESKTOP-HSVIK0I MINGW64 ~/Desktop/GIT-SeleniumProject (master)
+$
